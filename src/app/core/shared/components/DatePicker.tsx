@@ -250,7 +250,6 @@ export default function DatePicker({
           <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
         </motion.svg>
       </button>
-
       {error && <p className="text-xs text-red-400 mt-1">{error}</p>}
 
       {typeof document !== "undefined" && createPortal(dropdown, document.body)}
